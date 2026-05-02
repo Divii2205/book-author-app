@@ -1,10 +1,9 @@
-package com.example.bookauthor.repository;
+package com.example.bookauthorapp.repository;
 
-import com.example.bookauthor.model.Author;
+import com.example.bookauthorapp.entity.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AuthorRepository extends JpaRepository<Author, Long> {
-    boolean existsByEmail(String email);
 }
