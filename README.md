@@ -128,9 +128,6 @@ book-author-app/
 ---
 
 ## 5. GitHub URL
-
-Replace this placeholder with your repository URL once you push the project:
-
 ```
-https://github.com/<your-username>/book-author-app
+https://github.com/divii2205/book-author-app
 ```
