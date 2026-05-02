@@ -85,4 +85,4 @@ Implemented Unit Tests using JUnit 5 and Mockito.
 3. **Data Integrity Violation Simulation**: H2 doesn't always strictly throw `DataIntegrityViolationException` for simple missing validations (since `@NotNull` is checked at the JPA layer first). Added `@NotBlank` annotations and manual DB-level checks to accurately capture and handle these specific exceptions.
 
 ## Github URL
-*(Insert your GitHub repository URL here)*
+[https://github.com/Divii2205/book-author-app.git](https://github.com/Divii2205/book-author-app.git)
